@@ -64,7 +64,7 @@ const crearPersonaje =() => {
     let espacioPersonajes = document.getElementById("espacioPersonajes");
     
     espacioPersonajes.innerHTML +=`
-        <p>El personaje <strong>${nombre}</strong> tiene un valor de <strong> $${precioPersonaje}USD</strong> </p>
+        <br><p>El personaje <strong>${nombre}</strong> tiene un valor de <strong> $${precioPersonaje}USD</strong> </p>
     `;
 
     const listaPersonajesJSON = JSON.stringify(listaPersonajes);

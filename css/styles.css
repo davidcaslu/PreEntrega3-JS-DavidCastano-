@@ -144,6 +144,23 @@ footer {
 .flex-tarjetas-columns {
   flex-direction: column; }
 
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+}
+
+label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  text-align: left;
+}
+
+
 .p_tarjetas, .p_tarjetas-interior {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -195,6 +212,14 @@ h1, .h2_paginas {
 
 .h2_paginas {
   text-align: left; }
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 18 px;
+  color: black; }
+
+  
 
 h3 {
   font-family: 'Inter', sans-serif;
